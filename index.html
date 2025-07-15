@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dheeraj Dineshkumar Yadav | Portfolio</title>
+  <!-- Tailwind CSS CDN (for demo; use build process for production) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white">
+  <!-- Navigation Bar -->
+  <header class="bg-black shadow sticky top-0 z-50">
+    <nav class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="font-bold text-xl text-yellow-400">Dheeraj Yadav</div>
+      <ul class="flex space-x-6">
+        <li><a href="#home" class="hover:text-yellow-400 transition">Home</a></li>
+        <li><a href="#about" class="hover:text-yellow-400 transition">About</a></li>
+        <li><a href="#projects" class="hover:text-yellow-400 transition">Projects</a></li>
+        <li><a href="#contact" class="hover:text-yellow-400 transition">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center bg-black pt-24 pb-12">
+    <!-- Profile Image -->
+    <img src="https://i.ibb.co/S4bJHWvs/Photo.png" alt="Profile Photo" class="w-36 h-36 md:w-44 md:h-44 rounded-full shadow-xl mb-6 border-4 border-yellow-400 object-cover" />
+    <h1 class="text-3xl md:text-5xl font-extrabold mb-2 text-white">Dheeraj Dineshkumar Yadav</h1>
+    <h2 class="text-lg md:text-2xl font-semibold text-yellow-400 mb-2">Web Developer & Cybersecurity Enthusiast</h2>
+    <p class="text-base md:text-xl mb-4 italic text-gray-200">"Building secure, scalable, and impactful web solutions."</p>
+    <a href="Dheeraj_Yadav_Resume.pdf" class="inline-block bg-yellow-400 text-black px-6 py-2 rounded-lg shadow hover:bg-yellow-500 transition font-semibold">Download Resume</a>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="container mx-auto py-16 px-4">
+    <h2 class="text-3xl font-bold mb-2 text-center text-yellow-400">About Me</h2>
+    <div class="w-24 h-1 bg-yellow-400 rounded mx-auto mb-8"></div>
+    <div class="flex flex-col lg:flex-row gap-8">
+      <!-- Summary Card -->
+      <div class="flex-1 bg-gradient-to-br from-gray-900 to-black rounded-2xl shadow-xl p-8 flex flex-col justify-center mb-6 lg:mb-0 border border-yellow-400">
+        <h3 class="text-2xl font-bold mb-4 text-yellow-400 flex items-center gap-2">
+          <svg class="w-7 h-7 text-yellow-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 11c0-1.104.896-2 2-2s2 .896 2 2-.896 2-2 2-2-.896-2-2zm0 0V7m0 4v4m0 0c0 1.104-.896 2-2 2s-2-.896-2-2 .896-2 2-2 2 .896 2 2z"/></svg>
+          Who am I?
+        </h3>
+        <p class="mb-4 text-gray-200 text-lg">I’m <span class="font-semibold text-yellow-400">Dheeraj Dineshkumar Yadav</span>, a highly motivated and creative final-year B.Sc. IT student from Shankar Narayan College, passionate about web development, backend engineering with Django, cybersecurity, and solving real-world problems through technology.</p>
+        <p class="text-gray-200 text-lg">I thrive in team environments, grasp new technologies quickly, and am eager to build impactful solutions using tools like <span class="font-semibold text-yellow-400">Python, Django, HTML, CSS, JavaScript, SQL, Git, OpenCV, and TensorFlow</span>. My journey is enriched by hands-on projects and national-level research events.</p>
+      </div>
+      <!-- Skills Card -->
+      <div class="flex-1 bg-black rounded-2xl shadow-xl p-8 flex flex-col justify-center border border-yellow-400">
+        <h3 class="text-2xl font-bold mb-4 text-yellow-400 flex items-center gap-2">
+          <svg class="w-7 h-7 text-yellow-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L6 13.25l1.41-1.41L9.75 14.17l6.84-6.84L18 8.75z"/></svg>
+          Key Skills
+        </h3>
+        <div class="grid grid-cols-2 gap-3 text-white text-base">
+          <div class="flex items-center gap-2"><span class="bg-yellow-400 text-black rounded-full px-2 py-1 text-xs font-semibold">HTML5</span></div>
+          <div class="flex items-center gap-2"><span class="bg-yellow-400 text-black rounded-full px-2 py-1 text-xs font-semibold">CSS3</span></div>
+          <div class="flex items-center gap-2"><span class="bg-yellow-400 text-black rounded-full px-2 py-1 text-xs font-semibold">JavaScript</span></div>
+          <div class="flex items-center gap-2"><span class="bg-yellow-400 text-black rounded-full px-2 py-1 text-xs font-semibold">Python</span></div>
+          <div class="flex items-center gap-2"><span class="bg-yellow-400 text-black rounded-full px-2 py-1 text-xs font-semibold">Django</span></div>
+          <div class="flex items-center gap-2"><span class="bg-yellow-400 text-black rounded-full px-2 py-1 text-xs font-semibold">ReactJS</span></div>
+          <div class="flex items-center gap-2"><span class="bg-yellow-400 text-black rounded-full px-2 py-1 text-xs font-semibold">TailwindCSS</span></div>
+          <div class="flex items-center gap-2"><span class="bg-yellow-400 text-black rounded-full px-2 py-1 text-xs font-semibold">Git & GitHub</span></div>
+          <div class="flex items-center gap-2"><span class="bg-yellow-400 text-black rounded-full px-2 py-1 text-xs font-semibold">MySQL</span></div>
+          <div class="flex items-center gap-2"><span class="bg-yellow-400 text-black rounded-full px-2 py-1 text-xs font-semibold">Cybersecurity</span></div>
+        </div>
+        <h3 class="text-xl font-semibold mt-6 mb-2 text-yellow-400">Certifications & Achievements</h3>
+        <ul class="list-disc list-inside text-white text-base pl-2">
+          <li>18th Avishkar – Mumbai University (2024)</li>
+          <li>17th Avishkar – B.N. Bandodkar College (2023)</li>
+          <li>16th Avishkar – K.B. Patil College (2022)</li>
+          <li>Research Paper Presentation – Dhanwate College (2022)</li>
+          <li>Time Management – Infosys Springboard (2022)</li>
+          <li>Employability Training – TNS India Foundation</li>
+          <li>MS-Automation – Unicorn Computer Education (2016)</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Timeline for Education & Experience -->
+    <div class="mt-12 grid md:grid-cols-2 gap-8">
+      <!-- Education Timeline -->
+      <div class="bg-black rounded-2xl shadow-lg p-8 border-l-4 border-yellow-400 relative">
+        <h3 class="text-2xl font-bold mb-6 text-yellow-400 flex items-center gap-2">
+          <svg class="w-7 h-7 text-yellow-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6l4 2"/></svg>
+          Education
+        </h3>
+        <div class="mb-6 pl-4 relative">
+          <div class="absolute left-0 top-2 w-2 h-2 bg-yellow-400 rounded-full"></div>
+          <div class="font-bold text-white">B.Sc. IT</div>
+          <div>Shankar Narayan College, Bhayandar (2022–Present)</div>
+          <div class="text-sm text-gray-300">Avg: 77% (Sem 1–4)</div>
+        </div>
+        <div class="mb-6 pl-4 relative">
+          <div class="absolute left-0 top-2 w-2 h-2 bg-yellow-300 rounded-full"></div>
+          <div class="font-bold text-white">HSC</div>
+          <div>Mother Mary’s Junior College, Bhayandar (2020–2022)</div>
+          <div class="text-sm text-gray-300">60%</div>
+        </div>
+        <div class="pl-4 relative">
+          <div class="absolute left-0 top-2 w-2 h-2 bg-yellow-200 rounded-full"></div>
+          <div class="font-bold text-white">SSC</div>
+          <div>Nirmala Niketan High School, Bhayandar (2019–2020)</div>
+          <div class="text-sm text-gray-300">69%</div>
+        </div>
+      </div>
+      <!-- Experience Timeline -->
+      <div class="bg-black rounded-2xl shadow-lg p-8 border-l-4 border-yellow-400 relative">
+        <h3 class="text-2xl font-bold mb-6 text-yellow-400 flex items-center gap-2">
+          <svg class="w-7 h-7 text-yellow-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 01-8 0"/></svg>
+          Experience
+        </h3>
+        <div class="mb-6 pl-4 relative">
+          <div class="absolute left-0 top-2 w-2 h-2 bg-yellow-400 rounded-full"></div>
+          <div class="font-bold text-white">Cyber Security Intern</div>
+          <div>Prodigy InfoTech (Remote)</div>
+          <div class="text-sm text-gray-300">Apr 2025–Present</div>
+          <ul class="list-disc list-inside text-sm mt-2 text-gray-200">
+            <li>Vulnerability assessments, threat detection</li>
+            <li>Developed cybersecurity protocols</li>
+            <li>Risk management & compliance</li>
+          </ul>
+        </div>
+        <div class="pl-4 relative">
+          <div class="absolute left-0 top-2 w-2 h-2 bg-yellow-300 rounded-full"></div>
+          <div class="font-bold text-white">Web Development Intern</div>
+          <div>Prodigy InfoTech (Remote)</div>
+          <div class="text-sm text-gray-300">Feb–Mar 2025</div>
+          <ul class="list-disc list-inside text-sm mt-2 text-gray-200">
+            <li>Developed responsive web apps</li>
+            <li>Debugged and enhanced functionality</li>
+            <li>Collaborated with senior developers</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-black py-16 px-4">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-8 text-center text-yellow-400">Projects</h2>
+      <div class="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <!-- Project Card 1 -->
+        <div class="bg-gray-900 rounded-2xl shadow-lg p-6 hover:scale-105 hover:shadow-yellow-400/50 transition duration-300 flex flex-col border border-yellow-400">
+          <img src="https://i.ibb.co/21pyPpzV/t-census6028-logowik-com.webp" alt="E-Census" class="rounded mb-4 w-full object-cover h-40 border border-yellow-400" />
+          <h3 class="text-xl font-semibold mb-2 text-yellow-400">E-Census: A Revolutionizing Data Collection</h3>
+          <p class="mb-2 text-sm text-gray-200 flex-grow">Built a digital census platform enabling real-time population data collection. Integrated cloud storage and live analytics to improve accuracy and security.</p>
+          <div class="text-xs text-yellow-300 mb-2">HTML, CSS, JavaScript, SQL, Cloud</div>
+          <a href="https://github.com/dheerajyadav1712" class="text-yellow-400 hover:underline mt-auto">GitHub Repo</a>
+        </div>
+        <!-- Project Card 2 -->
+        <div class="bg-gray-900 rounded-2xl shadow-lg p-6 hover:scale-105 hover:shadow-yellow-400/50 transition duration-300 flex flex-col border border-yellow-400">
+          <img src="data:image/jpeg;base64,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" alt="Duck Hunter" class="rounded mb-4 w-full object-cover h-40 border border-yellow-400" />
+          <h3 class="text-xl font-semibold mb-2 text-yellow-400">Duck Hunter (Cybersecurity Project)</h3>
+          <p class="mb-2 text-sm text-gray-200 flex-grow">Simulated USB-based cyber-attacks to expose vulnerabilities in computer systems. Designed countermeasures to prevent malicious USB access using security protocols.</p>
+          <div class="text-xs text-yellow-300 mb-2">USB Rubber Ducky, Cybersecurity Protocols</div>
+          <a href="https://github.com/dheerajyadav1712" class="text-yellow-400 hover:underline mt-auto">GitHub Repo</a>
+        </div>
+        <!-- Project Card 3 -->
+        <div class="bg-gray-900 rounded-2xl shadow-lg p-6 hover:scale-105 hover:shadow-yellow-400/50 transition duration-300 flex flex-col border border-yellow-400">
+          <img src="https://media.istockphoto.com/id/957646100/video/autonomous-vehicle-collision-avoid-car-keep-the-car-distance-automatic-driving-technology-iot.jpg?s=640x640&k=20&c=Twwxa7UOfbXMgLNba-tsB6Grr1HI49NhHZ1P2oxyty0=" alt="Lifeline Emergency Reactor" class="rounded mb-4 w-full object-cover h-40 border border-yellow-400" />
+          <h3 class="text-xl font-semibold mb-2 text-yellow-400">Lifeline Emergency Reactor</h3>
+          <p class="mb-2 text-sm text-gray-200 flex-grow">Developed an automatic accident alert system sending real-time GPS alerts. Embedded alcohol, temperature, and crash sensors for intelligent emergency detection.</p>
+          <div class="text-xs text-yellow-300 mb-2">Arduino, GPS, GSM, Sensors</div>
+          <a href="https://github.com/dheerajyadav1712" class="text-yellow-400 hover:underline mt-auto">GitHub Repo</a>
+        </div>
+        <!-- Project Card 4 -->
+        <div class="bg-gray-900 rounded-2xl shadow-lg p-6 hover:scale-105 hover:shadow-yellow-400/50 transition duration-300 flex flex-col border border-yellow-400">
+          <img src="https://t4.ftcdn.net/jpg/01/33/33/41/360_F_133334155_X23HzbJKawbIgXVaub4bPM8CjpkS5uMS.jpg" alt="Doctor On Demand Screenshot" class="rounded mb-4 w-full object-cover h-40 border border-yellow-400" />
+          <h3 class="text-xl font-semibold mb-2 text-yellow-400">Doctor On Demand</h3>
+          <p class="mb-2 text-sm text-gray-200 flex-grow">A web application that allows users to book appointments with doctors. It also allows users to view the availability of doctors and book appointments.</p>
+          <div class="text-xs text-yellow-300 mb-2"> Flutter, Web Development</div>
+          <a href="https://github.com/dheerajyadav1712/Online-Doctor-Appointment-System-" target="_blank" class="text-yellow-400 hover:underline mt-auto">GitHub Repo</a>
+        </div>
+        <!-- Project Card 5 -->
+        <div class="bg-gray-900 rounded-2xl shadow-lg p-6 hover:scale-105 hover:shadow-yellow-400/50 transition duration-300 flex flex-col border border-yellow-400">
+          <img src="https://magnetoitsolutions.com/wp-content/uploads/2020/05/How-Laundry-App-Development-is-Changing-Scenario-of-Laundry-Business.jpg" alt="Online Laundary Management System Screenshot" class="rounded mb-4 w-full object-cover h-40 border border-yellow-400" />
+          <h3 class="text-xl font-semibold mb-2 text-yellow-400">Online Laundary Management System</h3>
+          <p class="mb-2 text-sm text-gray-200 flex-grow">A platform where Laundary Data can be stored and used for future purpose</p>
+          <div class="text-xs text-yellow-300 mb-2">Html, CSS, js, PHP</div>
+          <a href="https://github.com/dheerajyadav1712/Laundry-Management-System" target="_blank" class="text-yellow-400 hover:underline mt-auto">GitHub Repo</a>
+        </div>
+        <!-- Project Card 6 -->
+        <div class="bg-gray-900 rounded-2xl shadow-lg p-6 hover:scale-105 hover:shadow-yellow-400/50 transition duration-300 flex flex-col border border-yellow-400">
+          <img src="https://itchronicles.com/wp-content/uploads/2023/07/face-recognition.jpg" alt="Facial-Expression-Detection Screenshot" class="rounded mb-4 w-full object-cover h-40 border border-yellow-400" />
+          <h3 class="text-xl font-semibold mb-2 text-yellow-400">Facial Expression Detection</h3>
+          <p class="mb-2 text-sm text-gray-200 flex-grow">Web page where you can check the expression of the persone in live time</p>
+          <div class="text-xs text-yellow-300 mb-2">Python, OpenCV</div>
+          <a href="https://github.com/dheerajyadav1712/Facial-Expression-Detection" target="_blank" class="text-yellow-400 hover:underline mt-auto">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container mx-auto py-16 px-4">
+    <h2 class="text-3xl font-bold mb-8 text-center text-yellow-400">Contact</h2>
+    <form class="max-w-xl mx-auto bg-black rounded-lg shadow p-8 flex flex-col gap-4 border border-yellow-400">
+      <input type="text" name="name" placeholder="Name" class="border border-yellow-400 rounded p-3 focus:outline-none focus:ring-2 focus:ring-yellow-400 bg-black text-white placeholder-gray-400" required />
+      <input type="email" name="email" placeholder="Email" class="border border-yellow-400 rounded p-3 focus:outline-none focus:ring-2 focus:ring-yellow-400 bg-black text-white placeholder-gray-400" required />
+      <textarea name="message" rows="5" placeholder="Message" class="border border-yellow-400 rounded p-3 focus:outline-none focus:ring-2 focus:ring-yellow-400 bg-black text-white placeholder-gray-400" required></textarea>
+      <button type="submit" class="bg-yellow-400 text-black py-3 rounded-lg hover:bg-yellow-500 transition font-semibold">Submit</button>
+      <div class="flex justify-center gap-8 mt-6">
+        <!-- LinkedIn Icon (brand color) -->
+        <a href="https://linkedin.com/in/dheeraj-yadav-740a891a9/" target="_blank" aria-label="LinkedIn" class="transition-transform transform hover:scale-110">
+          <svg class="w-10 h-10" fill="#0077B5" viewBox="0 0 24 24">
+            <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm13.5 11.28h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.89v1.36h.04c.4-.75 1.37-1.54 2.82-1.54 3.01 0 3.57 1.98 3.57 4.56v5.62z"/>
+          </svg>
+        </a>
+        <!-- Gmail Icon (brand color) -->
+        <a href="mailto:yadavdheeraj8282@gmail.com" aria-label="Email" class="transition-transform transform hover:scale-110">
+          <svg class="w-10 h-10" viewBox="0 0 48 48">
+            <g>
+              <path fill="#EA4335" d="M24 27.6L6.4 15.2V38c0 1.1.9 2 2 2h31.2c1.1 0 2-.9 2-2V15.2L24 27.6z"/>
+              <path fill="#34A853" d="M42.4 10.8c-.4-.3-.9-.3-1.3 0L24 22.1 6.9 10.8c-.4-.3-.9-.3-1.3 0-.4.3-.6.8-.4 1.2l2.1 3.6L24 29.2l16.7-13.6 2.1-3.6c.2-.4 0-.9-.4-1.2z"/>
+              <path fill="#FBBC05" d="M41.6 8H6.4C5.3 8 4.4 8.9 4.4 10v1.2l19.6 16 19.6-16V10c0-1.1-.9-2-2-2z"/>
+              <path fill="#4285F4" d="M41.6 40H6.4c-1.1 0-2-.9-2-2V15.2l19.6 16 19.6-16V38c0 1.1-.9 2-2 2z"/>
+            </g>
+          </svg>
+        </a>
+        <!-- WhatsApp Icon (brand color) -->
+        <a href="https://wa.me/918879829346" target="_blank" aria-label="WhatsApp" class="transition-transform transform hover:scale-110">
+          <svg class="w-10 h-10" fill="#25D366" viewBox="0 0 32 32">
+            <path d="M16 3C9.373 3 4 8.373 4 15c0 2.637.86 5.08 2.34 7.09L4 29l7.18-2.31C13.09 27.14 14.52 27.5 16 27.5c6.627 0 12-5.373 12-12S22.627 3 16 3zm0 22c-1.33 0-2.63-.26-3.84-.76l-.27-.11-4.26 1.37 1.37-4.26-.11-.27C6.26 17.63 6 16.33 6 15c0-5.52 4.48-10 10-10s10 4.48 10 10-4.48 10-10 10zm5.07-7.75c-.28-.14-1.65-.81-1.9-.9-.25-.09-.43-.14-.61.14-.18.28-.7.9-.86 1.08-.16.18-.32.2-.6.07-.28-.14-1.18-.44-2.25-1.41-.83-.74-1.39-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.13-.13.28-.34.42-.51.14-.17.18-.29.28-.48.09-.19.05-.36-.02-.5-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47-.16-.01-.35-.01-.54-.01-.19 0-.5.07-.76.34-.26.27-1 1-.99 2.43.01 1.43 1.03 2.81 1.18 3.01.15.2 2.03 3.1 4.93 4.23.69.3 1.23.48 1.65.61.69.22 1.32.19 1.82.12.56-.08 1.65-.67 1.89-1.32.23-.65.23-1.2.16-1.32-.07-.12-.25-.19-.53-.33z"/>
+          </svg>
+        </a>
+      </div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-center py-4 mt-8 shadow-inner border-t border-yellow-400">
+    <p class="text-sm text-yellow-400">&copy; 2024 Dheeraj Dineshkumar Yadav. All rights reserved.</p>
+  </footer>
+</body>
+</html> 
